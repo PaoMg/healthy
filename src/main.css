@@ -1,0 +1,244 @@
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Bree Serif', serif; */
+/* font-family: 'Muli', sans-serif; */
+/* color: #F6921E;   color naranja de logo */
+/* color: #2077da;    color azul */
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ol, ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2077da;
+    color: white;
+    height: 100px;
+    border-bottom: 2px solid grey;
+}
+
+nav {
+    display: flex;
+    height: inherit;
+    margin-right: 50px;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    display: flex;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0px 20px;
+}
+
+.logo {
+    display: flex;
+    margin: 0px;
+    padding-left: 30px;
+}
+
+.titleHealthy {
+    font-size: 50px;
+    font-family: 'Bree Serif', serif;
+}
+
+#relleno {
+    width: 30%;
+    height: inherit;
+}
+
+.header figure img {
+    height: 90px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 60px;
+    margin-bottom: 15px;
+    color: #f1f0ee;
+    font-family: 'Bree Serif', serif;
+    font-size: 65px;
+    text-shadow: 6px 2px 12px black;
+    line-height: 1.2;     /*espacio entre lineas del titulo */
+    letter-spacing: 1.5px;    /*espacio entre letras */
+}
+
+h1 strong {
+    color: #F6921E;
+}
+
+.hero h2 {
+    color: #f1b978;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 650px;
+    background-color: white;
+    background-image: url(./images/oficina-corre.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 30px solid rgb(211, 210, 210);
+}
+
+.agenda {
+    display: flex;
+    align-items: center;
+    height: 650px;
+    background-color: white;
+    background-image: url(./images/carro.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 30px solid rgb(211, 210, 210);
+}
+
+
+#mapa img {
+    width: 500px;
+    border: 3px solid orange;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px black;
+}
+
+.aboutUs {
+    display: flex;
+    align-items: center;
+    height: 650px;
+    background-color: white;
+    background-image: url(./images/pareja-ejercicio.jpg);
+    background-size: cover;
+    background-position: top;
+    border-bottom: 30px solid rgb(211, 210, 210);
+}
+
+.aboutUs p {
+    color: #2077da;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+    padding: 12px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 40%;
+    text-align: justify;
+}
+
+.aboutUs h2 {
+    margin: 10px 0px 15px 50px;
+    padding: 12px;
+    color: #F6921E;
+    font-family: 'Bree Serif', serif;
+    font-size: 65px;
+    line-height: 1.2;     /*espacio entre lineas del titulo */
+    letter-spacing: 1.5px;    /*espacio entre letras */
+}
+
+#servicios {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    height: 650px;
+    background-color: rgb(241, 229, 188);
+    border-bottom: 30px solid rgb(211, 210, 210);
+}
+
+#contenedor-servicios {
+    display: flex;
+}
+
+.service {
+    width: 25%;
+    margin: 80px 25px 25px 25px;
+    align-content: top;
+    text-align: center;
+}
+
+
+
+.service h5 {
+    width: 140px;
+    height: 90px;
+    position: relative;
+    padding: 10px;
+    margin: -50px 50px 30px 0px;
+    text-align: center;
+    color: #27313b;
+    background-color: #fdedda;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(48, 47, 53);
+    font-size: 16px;
+}
+
+#servicios h2 {
+    margin: 40px 0px 15px 50px;
+    padding: 12px;
+    color: #F6921E;
+    font-family: 'Bree Serif', serif;
+    font-size: 65px;
+    line-height: 1.2;     /*espacio entre lineas del titulo */
+    letter-spacing: 1.5px;    /*espacio entre letras */
+}
+
+.service img {
+    width: 230px;
+    height: 230px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-color: rgb(248, 47, 88);
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px black;
+    color: white;
+}
+
+footer {
+    background-color: #F6921E;
+    color: white;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer img {
+    vertical-align: middle;
+    padding-right: 25px;
+}
+
+footer div {
+    margin: 0 25px;
+}
