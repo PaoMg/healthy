@@ -1,5 +1,7 @@
 import React, {Fragment} from 'react';
 
+import Footer from './Footer'
+
 import './main.css';
 
 function App() {
@@ -66,9 +68,13 @@ function App() {
                   <h5>Productos y planes de alimentación a tu medida.</h5>
               </div>
           </div>
+<<<<<<< HEAD
       </section>    
       </Fragment>
       <Fragment>
+=======
+      </section>
+>>>>>>> f3a1452c9b634e79c89534e0a310369b79149fb0
       <section className="opinions">
           <div className="testimony">
               <img src="" alt="testimonio1"/>
@@ -86,6 +92,7 @@ function App() {
               <button>¡Conoce más!</button>
           </div>
       </section>
+<<<<<<< HEAD
       </Fragment>
       
       <Fragment>
@@ -97,6 +104,10 @@ function App() {
               <p>Designed Healthy Braek, 2020</p>
           </div>
       </footer>
+=======
+
+      <Footer />
+>>>>>>> f3a1452c9b634e79c89534e0a310369b79149fb0
     </Fragment>
   );
 }
