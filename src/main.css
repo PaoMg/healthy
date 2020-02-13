@@ -242,3 +242,60 @@ footer img {
 footer div {
     margin: 0 25px;
 }
+
+.testimonial {
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+}
+
+.t-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.t-col {
+    flex: 33.33%;
+    width: 33.33%;
+    max-width: 300px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonial {
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.round-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #434343;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.t-text {
+    font-size: 16px;
+}
+
+.testim {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+}
+
+.testim img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #2F6890;
+
+}
