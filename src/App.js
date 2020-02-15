@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-
+import SeccionAgenda from './SeccionAgenda';
 import Footer from './Footer'
 
 import './main.css';
@@ -34,13 +34,9 @@ function App() {
               <button>¡Agenda ahora!</button>
           </div>
       </section>
-      <section className="agenda">
-          <figure id="mapa">
-              <img src="./images/mapa.PNG" alt="mapa"/>
-          </figure>
-          <form action="">Opciones</form>
-          <button>¡Agenda ahora!</button>
-      </section>
+
+        <SeccionAgenda />
+        
       <section id="nosotros" className="aboutUs">
           <article>
               <h2>¿Quiénes somos?</h2>
