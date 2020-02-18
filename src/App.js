@@ -1,8 +1,19 @@
 import React, {Fragment} from 'react';
+
+// Verifiquen, después de insertar el router, qué componentes ya no se necesitan aquí
+// TIP TIP TIP
+// Su terminal les dirá cuáles elementos no se necesitan
+
+
 import SeccionAgenda from './SeccionAgenda';
 import Footer from './Footer'
+import AgendarCita from './AgendarCita'
+import MainView from './MainView'
 
 import './main.css';
+
+// HAy que cambiar a MainView lo que este componente pinta en el navegador 
+// y sustituirlo por el router y sus elementos
 
 function App() {
   return (
